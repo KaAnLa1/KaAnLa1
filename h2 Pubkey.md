@@ -62,16 +62,22 @@ How keys are used:
 
 ## b) Messaging. 
 Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+
 https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+
 I followed instructions:
+
 I was able to generate Kati's Keypair (and installed required tools).
+
 I was able to expor my pub key. 
+
 I simulated Alice according instructions.
 As Alice I was able to imp and verify Tero's key and see the trust.
 But I had issues with "Tero needs Alices Public Key to Know IT's Her": I wasn't able to import alice.pub. Error: gpg: no valid OpenPGP data found. 
 Tried to resolve the issue but didn't find resolution (killall also runned). 
+
 Even I had unresolved issue I decided to test "Alice Sends a Secret Message"
-I was able to create a message but encrypting and signing gives error: gpg: Note: '--sign' is not confidered and option
+I was able to create a message but encrypting and signing gives error: gpg: Note: '--sign' is not considered an option
 Unfortunately I am not familiar with Linux. Thus I decided to stop thist task.
 
 
